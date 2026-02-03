@@ -1,15 +1,5 @@
 ﻿# TerrierFit
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/wger-project/wger/master/wger/core/static/images/logos/logo.png" width="100" height="100" alt="wger logo">
-
-![AGPLv3 License](https://img.shields.io/badge/License-AGPLv3-blue.svg)
-![Build Status](https://img.shields.io/github/actions/workflow/status/wger-project/wger/ci.yml?branch=master)
-[![Coverage Status](https://coveralls.io/repos/github/wger-project/wger/badge.svg?branch=master)](https://coveralls.io/github/wger-project/wger?branch=master)
-![Translation Status](https://hosted.weblate.org/widget/wger/svg-badge.svg)
-</p>
-
-
 TerrierFit (ˈvɛɡɐ) is a free workout and fitness manager.
 
 - 🏋️ **Custom Workout Routines** – Create flexible routines with automatic weight progression rules.
