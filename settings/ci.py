@@ -26,7 +26,7 @@ env = environ.Env()
 DEBUG = True
 
 # Application settings
-WGER_SETTINGS['EMAIL_FROM'] = 'wger Workout Manager <wger@example.com>'
+WGER_SETTINGS['EMAIL_FROM'] = 'TerrierFit <no-reply@your-domain>'
 WGER_SETTINGS['ALLOW_REGISTRATION'] = True
 WGER_SETTINGS['ALLOW_GUEST_USERS'] = True
 WGER_SETTINGS['ALLOW_UPLOAD_VIDEOS'] = False
