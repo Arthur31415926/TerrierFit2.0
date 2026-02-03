@@ -6,9 +6,9 @@
 {#           #}
 {% block opengraph %}
     {{ block.super }}
-    <meta property="og:title" content="{% translate 'Features' %} - wger">
+    <meta property="og:title" content="{% translate 'Features' %} - TerrierFit">
     <meta property="og:description"
-          content="{% blocktranslate %}TerrierFit is a personal fitness web app developed at Boston University, based on the open-source wger platform.{% endblocktranslate %}">
+          content="{% blocktranslate %}TerrierFit is a personal fitness web app developed at Boston University, based on the open-source TerrierFit platform.{% endblocktranslate %}">
 {% endblock %}
 
 {% block opengraphimages %}
@@ -41,35 +41,18 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item mx-2 my-1">
-                            <a class="nav-link fw-semibold" aria-current="page"
-                               href="{% url 'software:about-us' %}">{% translate "Contact" %}
-                            </a>
-                        </li>
-                        <li class="nav-item mx-2 my-1">
                             <a class="nav-link fw-semibold"
                                href="{% url 'exercise:exercise:overview' %}">
                                 {% translate "Exercises" %}
                             </a>
                         </li>
                         <li class="nav-item mx-2 my-1">
-                            <a class="nav-link fw-semibold"
-                               href="https://play.google.com/store/apps/details?id=de.wger.flutter">
-                                {% translate "Mobile app" %}
-                            </a>
-                        </li>
-                        <li class="nav-item mx-2 my-1">
-                            <a class="nav-link fw-semibold"
-                               href="https://www.buymeacoffee.com/wger">
-                                {% translate "Donate" %}
-                            </a>
-                        </li>
-                        <li class="nav-item mx-2 my-1">
-                            <a class="nav-link fw-semibold" href="https://github.com/wger-project">
+                            <a class="nav-link fw-semibold" href="https://github.com/Arthur31415926/TerrierFit2.0">
                                 {% translate "Develop" %}
                             </a>
                         </li>
                         <li class="nav-item mx-2 my-1">
-                            <a class="nav-link fw-semibold" href="https://discord.gg/rPWFv6W">
+                            <a class="nav-link fw-semibold" href="https://github.com/Arthur31415926/TerrierFit2.0">
                                 {% translate "Community" %}
                             </a>
                         </li>
@@ -110,7 +93,7 @@
                         {% translate "Track your <br> way to your <br> ideal body" %}
                     </h1>
                     <p>
-                        {% translate "Join wger, the community-driven <b>free and open-source fitness tracker</b>" %}
+                        {% translate "Join TerrierFit, the community-driven <b>free and open-source fitness tracker</b>" %}
                     </p>
 
                     <a role="button"
@@ -130,7 +113,7 @@
             <section class="row">
                 <div class="col-6 col-md-3 d-flex flex-column align-items-center">
                     <h2 class="display-3 font-bebas-neue text-dark-blue mb-0">{{ nr_users }}+</h2>
-                    <p class="text-center">{% translate "people <br> using wger" %}</p>
+                    <p class="text-center">{% translate "people <br> using TerrierFit" %}</p>
                 </div>
                 <div class="col-6 col-md-3 d-flex flex-column align-items-center">
                     <h2 class="display-3 font-bebas-neue text-dark-blue mb-0">{{ nr_exercises }}+</h2>
@@ -284,7 +267,7 @@
                     {% else %}
                         {% url 'core:index' %}
                     {% endif %}">
-                {% translate "Try wger now" %}
+                {% translate "Try TerrierFit now" %}
             </a>
         </div>
 
@@ -309,7 +292,7 @@
                         </h1>
                         <p style="line-height: 30px;">
                             {% blocktranslate trimmed %}
-                                wger is funded and created by the open-source community: people like
+                                TerrierFit is funded and created by the open-source community: people like
                                 you translating, adding exercises and nutritional info, developing,
                                 and more.
                             {% endblocktranslate %}
@@ -320,7 +303,7 @@
                                 {% endblocktranslate %}
                             </b>
                             {% blocktranslate trimmed %}
-                                Pitch in and help make wger even better!
+                                Pitch in and help make TerrierFit even better!
                             {% endblocktranslate %}
                         </p>
                         <div class="d-grid gap-2 d-md-block">
@@ -329,12 +312,6 @@
                                target="_blank"
                                rel="noopener noreferrer">
                                 {% translate "Contribute" %}
-                            </a>
-                            <a href="https://www.buymeacoffee.com/wger"
-                               target="_blank"
-                               rel="noopener noreferrer"
-                               class="btn btn-outline-primary rounded-1 w-auto px-5">
-                                {% translate "Donate" %}
                             </a>
                         </div>
                     </div>
@@ -383,7 +360,7 @@
                         </h6>
                         <p class="text-light fw-lighter text-center">
                             {% blocktranslate trimmed %}
-                                Don't want your data on an online service? Set up a wger instance
+                                Don't want your data on an online service? Set up a TerrierFit instance
                                 on your own server for free!
                             {% endblocktranslate %}
                         </p>
@@ -399,7 +376,7 @@
                             {% translate "Integrate with your own app" %}
                         </h6>
                         <p class="text-light fw-lighter text-center">
-                            {% translate "wger offers an open API that you can use for your app." %}
+                            {% translate "TerrierFit offers an open API that you can use for your app." %}
                         </p>
                     </div>
                     <div
@@ -506,14 +483,14 @@
                             <h1 class="fs-5 text-white">{% translate "Software" %}</h1>
                         </li>
                         <li class="list-group-item bg-transparent border-0 text-light">
-                            <a href="https://github.com/wger-project/wger/issues/new/choose"
+                            <a href="https://github.com/Arthur31415926/TerrierFit2.0/issues/new/choose"
                                target="_blank"
                                rel="noopener noreferrer">
                                 {% translate "Report an issue" %}
                             </a>
                         </li>
                         <li class="list-group-item bg-transparent border-0 text-light">
-                            <a href="https://github.com/wger-project" target="_blank"
+                            <a href="https://github.com/Arthur31415926/TerrierFit2.0" target="_blank"
                                rel="noopener noreferrer">
                                 {% translate "Source Code" %}
                             </a>
@@ -539,7 +516,7 @@
                     <ul class="list-group">
                         <li class="list-group-item bg-transparent border-0 text-light">
                             <h1 class="fs-5 text-white">
-                                <a href="https://github.com/wger-project" target="_blank"
+                                <a href="https://github.com/Arthur31415926/TerrierFit2.0" target="_blank"
                                    rel="noopener noreferrer">
                                     <i class="fab fa-github px-2"></i>
                                 </a>
